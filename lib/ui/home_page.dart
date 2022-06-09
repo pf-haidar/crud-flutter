@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Contatos"),
+        title: Text("Usuários Cadastrados"),
         backgroundColor: Colors.purple,
         centerTitle: true,
       ),

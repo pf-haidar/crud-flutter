@@ -47,7 +47,7 @@ class _ContactPageState extends State<ContactPage> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.purple,
-          title: Text(_editedContact.name ?? "Novo Contato"),
+          title: Text(_editedContact.name ?? "Novo Usuário"),
           centerTitle: true,
         ),
         floatingActionButton: FloatingActionButton(
@@ -74,7 +74,7 @@ class _ContactPageState extends State<ContactPage> {
                         image: _editedContact.img != null
                             ? FileImage(File(_editedContact.img))
                             : AssetImage("images/person.png"),
-                        fit: BoxFit.cover),
+                        ),
                   ),
                 ),
                 onTap: () {
