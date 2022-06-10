@@ -1,6 +1,6 @@
 # crud
 
-A new Flutter project.
+Flutter CRUD project.
 
 ## Getting Started
 
